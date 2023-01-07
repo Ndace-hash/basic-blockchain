@@ -17,12 +17,12 @@ function App() {
 
     setDataChain([data, ...dataChain]);
   };
-
+  console.log(dataChain);
   return (
     <div className="App">
       <InputData sha1hash={sha1hash} />
-      {dataChain.map((data,index) => (
-        <OutputData data={data} key={index}/>
+      {dataChain.map((data, index) => (
+        <OutputData data={data} key={index} />
       ))}
     </div>
   );

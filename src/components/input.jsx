@@ -25,7 +25,12 @@ const InputData = ({ sha1hash }) => {
     <div className="input-wrapper">
       <div className="form-group">
         <label>PlainText</label>
-        <input type="text" placeholder="text here" onChange={handleChange} />
+        <input
+          type="text"
+          placeholder="text here"
+          value={plainText}
+          onChange={handleChange}
+        />
       </div>
       <div className="form-group">
         <label>SHA-1</label>
