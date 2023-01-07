@@ -1,0 +1,29 @@
+.input-wrapper {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2rem 1rem;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group > label {
+  font-weight: 700;
+}
+
+.form-group > input {
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: #e0e0e0;
+  padding: 5px 8px;
+  width: 250px;
+}
+
+.input-wrapper > button {
+  margin-top: 1rem;
+  background-color: rgb(93, 212, 101);
+}
